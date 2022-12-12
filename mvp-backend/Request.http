@@ -1,0 +1,9 @@
+GET http://localhost:5001/
+###
+GET http://localhost:5001/api/inventory
+###
+GET http://localhost:5001/api/products
+###
+GET http://localhost:5001/api/categories
+###
+GET http://localhost:5001/api/products/Outer Wear
