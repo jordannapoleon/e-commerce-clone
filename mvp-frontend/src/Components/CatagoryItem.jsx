@@ -9,7 +9,7 @@ const CategoryItem = (props) =>{
             return null
         } else {
             
-            fetch(`http://localhost:5001/api/products/${e.target.innerHTML}`)
+            fetch(`https://e-comm-api.onrender.com/api/products/${e.target.innerHTML}`)
             .then(res => res.json())
             .then((data)=> props.setDisplay(data))
             props.setIsBrowse(e.target.innerHTML);

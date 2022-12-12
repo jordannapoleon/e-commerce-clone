@@ -4,7 +4,7 @@ import CategoryItem from './CatagoryItem';
 const Categories = (props) =>{
 
     function loadCategories (){
-        fetch('http://localhost:5001/api/categories')
+        fetch('https://e-comm-api.onrender.com/api/categories')
         .then(res => res.json())
         .then((data)=> props.setCategories(data))
 

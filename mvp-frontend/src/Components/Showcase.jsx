@@ -4,7 +4,7 @@ import ShowCaseDisplay from './ShowCaseDisplay';
 const Showcase = (props) =>{
 
     function loadInitial(){
-        fetch('http://localhost:5001/api/products')
+        fetch('https://e-comm-api.onrender.com/api/products')
         .then(res => res.json())
         .then((data)=> props.setDisplay(data))
     }
